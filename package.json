@@ -1,0 +1,40 @@
+{
+  "name": "mini-commerce-ionic-cordova",
+  "version": "1.0.0",
+  "author": "Technical Test",
+  "private": true,
+  "scripts": {
+    "start": "ng serve",
+    "build": "ng build",
+    "build:prod": "ng build --configuration production"
+  },
+  "dependencies": {
+    "@angular/common": "^20.1.0",
+    "@angular/compiler": "^20.1.0",
+    "@angular/core": "^20.1.0",
+    "@angular/forms": "^20.1.0",
+    "@angular/platform-browser": "^20.1.0",
+    "@angular/router": "^20.1.0",
+    "@ionic/angular": "^8.7.18",
+    "bootstrap": "^5.3.8",
+    "firebase": "^12.17.1",
+    "ionicons": "^7.4.0",
+    "rxjs": "~7.8.2",
+    "tslib": "^2.8.1",
+    "zone.js": "~0.15.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^20.1.0",
+    "@angular/cli": "^20.1.0",
+    "@angular/compiler-cli": "^20.1.0",
+    "@ionic/angular-toolkit": "^12.3.0",
+    "cordova": "13.0.0",
+    "cordova-android": "15.0.0",
+    "typescript": "~5.8.3"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ]
+  }
+}
