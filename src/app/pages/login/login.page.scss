@@ -1,0 +1,60 @@
+.login-panel {
+  border: 1px solid var(--app-border);
+  border-radius: 20px;
+  padding: 28px;
+  background: #ffffff;
+}
+
+.brand-mark {
+  width: 68px;
+  height: 68px;
+  border-radius: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: var(--ion-color-primary);
+  color: #ffffff;
+
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.form-field {
+  --background: #f8fafc;
+  --border-radius: 12px;
+  --padding-start: 14px;
+  --padding-end: 14px;
+
+  border: 1px solid #e4e7ec;
+  border-radius: 12px;
+}
+
+.demo-box {
+  padding: 16px 18px;
+  border-radius: 14px;
+  border: 1px dashed #d0d5dd;
+  background: #f8fafc;
+}
+
+
+.password-toggle {
+  margin-top: 18px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-right: 4px;
+
+  --padding-start: 8px;
+  --padding-end: 8px;
+
+  color: var(--ion-color-medium);
+}
+
+.password-toggle ion-icon {
+  font-size: 21px;
+}
+
+.password-toggle:hover {
+  color: var(--ion-color-primary);
+}
