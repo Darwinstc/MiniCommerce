@@ -1,7 +1,0 @@
-{
-  "name": "MiniCommerce",
-  "type": "angular",
-  "integrations": {
-    "cordova": {}
-  }
-}
