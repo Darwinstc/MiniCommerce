@@ -1,0 +1,51 @@
+.confirmation-shell {
+  max-width: 520px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 36px;
+}
+
+.success-symbol {
+  width: 76px;
+  height: 76px;
+  margin: 0 auto 18px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #e8f7ee;
+  color: #157a3e;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.confirmation-shell h1 {
+  margin-bottom: 8px;
+}
+
+.lead {
+  color: var(--ion-color-medium);
+  margin-top: 0;
+}
+
+.order-card {
+  margin: 28px 0 20px;
+  text-align: left;
+  box-shadow: none;
+  border: 1px solid var(--app-border);
+}
+
+.detail-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--app-border);
+}
+
+.detail-row:last-child {
+  border-bottom: 0;
+}
+
+.total-row {
+  font-size: 18px;
+}

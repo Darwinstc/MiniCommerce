@@ -1,0 +1,48 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+@import "@ionic/angular/css/core.css";
+
+@import "@ionic/angular/css/normalize.css";
+@import "@ionic/angular/css/structure.css";
+@import "@ionic/angular/css/typography.css";
+@import "@ionic/angular/css/display.css";
+
+@import "@ionic/angular/css/padding.css";
+@import "@ionic/angular/css/float-elements.css";
+@import "@ionic/angular/css/text-alignment.css";
+@import "@ionic/angular/css/text-transformation.css";
+@import "@ionic/angular/css/flex-utils.css";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: var(--ion-background-color);
+}
+
+body {
+  margin: 0;
+}
+
+.field-error {
+  margin: 6px 16px 12px;
+  color: var(--ion-color-danger);
+  font-size: 13px;
+}
+
+.brand-title {
+  cursor: pointer;
+  font-weight: 700;
+  transition: opacity 0.2s ease;
+  user-select: none;
+}
+
+.brand-title:hover {
+  opacity: 0.75;
+}
+
+ion-toolbar {
+  --border-color: var(--app-border);
+}
