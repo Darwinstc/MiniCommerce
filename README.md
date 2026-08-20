@@ -1,2 +1,0 @@
-# MiniCommerce
-Prueba Tecnica
